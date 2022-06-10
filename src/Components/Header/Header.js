@@ -8,23 +8,21 @@ const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <div className="gap">
+        <div>
           <h5>Hello I'm</h5>
           <h1>Shamima Akter</h1>
           <h5 className="text-light">Front-End Developer</h5>
           <CTA />
-        </div>
-
-        <div>
           <HeaderSocials />
         </div>
 
-        <div>
-          <img src={ME} alt="" />
+        <div className="me">
+          <img className="rounded-circle" src={ME} alt="" />
         </div>
-        <a href="#contact" className="scroll__down">
-          Scroll Down
-        </a>
+        
+          <a href="#contact" className="scroll__down">
+            Scroll Down
+          </a>
       </div>
     </header>
   );
