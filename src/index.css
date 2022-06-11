@@ -111,6 +111,9 @@ img{
     .container{
         width: 90%;
     }
+    section{
+        height: 76vh;
+    }
     section >h2{
         margin-bottom: 2rem;
     }

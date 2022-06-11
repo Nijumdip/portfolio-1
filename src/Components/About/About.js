@@ -3,11 +3,12 @@ import "./About.css";
 import ME from "../../assets/nijum_pic-removebg-preview.png";
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
+import { BiUserCircle } from "react-icons/bi";
 
 const About = () => {
   return (
     <section id="about">
-      <h5>About Me</h5>
+      <h5 className="pb-5">About Me</h5>
       <div className="container about_container">
         <div className="about_me">
           <div className="about_me-image">
@@ -27,6 +28,12 @@ const About = () => {
             <VscFolderLibrary className="about_icon" />
               <h5>Projects</h5>
               <small>10+ Completed</small>
+            </article>
+            
+            <article className="about_card">
+            <BiUserCircle className="about_icon" />
+              <h5>Clients</h5>
+              <small>200+</small>
             </article>
           </div>
           <p>
