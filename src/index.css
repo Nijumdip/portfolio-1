@@ -39,7 +39,7 @@ html{
 }
 .container{
     width: 75%;
-    height: 990px;
+    height: 790px;
     margin: 0 auto;
 }
 h1,h2,h3,h4,h5{
@@ -49,7 +49,8 @@ h1{
     font-size: 2.2rem;
 }
 section{
-    margin-top: 8rem;
+    margin-top: 5rem;
+    height: 100vh;
 }
 section>h2, section>h5{
     text-align: center;
