@@ -28,7 +28,7 @@ function App() {
         {/* <Route path="/project/:projectId" element={<Projects />} /> 
         <Route path="*" element={<Error />} />*/}
       </Routes>
-      <Footer></Footer>
+      <Footer/>
     </>
   );
 }
