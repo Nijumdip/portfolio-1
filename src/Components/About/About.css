@@ -17,6 +17,7 @@
   place-items: center;
 }
 .about_me-image {
+  height: 450px;
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(10deg);
@@ -77,6 +78,9 @@
   .about_me {
     width: 65%;
     margin: 0 auto 3rem;
+  }
+  .about_me-image {
+    height: 300px;
   }
   .about_cards {
     grid-template-columns: 1fr 1fr;
