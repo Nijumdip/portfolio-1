@@ -14,7 +14,7 @@ const Nav = () => {
       </Link>
       <Link to="/experience"><GiSkills/>
       </Link>
-      <Link to="/contact"><BiMessageSquareDetail />
+      <Link to="/blog"><BiMessageSquareDetail />
       </Link>
     </nav>
   );

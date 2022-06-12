@@ -8,11 +8,11 @@ import { BiUserCircle } from "react-icons/bi";
 const About = () => {
   return (
     <section id="about">
-      <h2 className="pb-5">About Me</h2>
+      <h2 className="pb-1">About Me</h2>
       <div className="container about_container">
         <div className="about_me">
           <div className="about_me-image">
-            <img src={ME} alt="about me" />
+            <img src={ME} height= "450px" alt="about me" />
         </div> 
         </div>
         

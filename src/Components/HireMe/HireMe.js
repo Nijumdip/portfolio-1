@@ -21,8 +21,11 @@ const HireMe = () => {
             It means to qualify or build. <br /> Then Apply for a job and focused on
             career.
           </p>
-          <Link to="/blog" className="btn btn-primary">
+          <a href="mailto:nijumdip019911@gmail.com" className="btn btn-primary mx-2">
           Hire Me <BsArrowRight />
+        </a>
+          <Link to="/blog" className="btn btn-primary">
+          Blog <BsArrowRight />
         </Link>
         </div>
       </div>

@@ -9,6 +9,7 @@ import HireMe from "./Components/HireMe/HireMe";
 import Nav from "./Components/Nav/Nav";
 import { Routes, Route, Link } from "react-router-dom";
 import HomePage from "./Components/Home/HomePage";
+import Blog from "./Components/Blog/Blog";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/experience" element={<Experience />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
       <Footer />
     
