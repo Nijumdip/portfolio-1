@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import CV from '../../assets/Shamima Akter (2).pdf'
+import CV from '../../assets/Shamima Akter (1).pdf'
 
 const CTA = () => {
   return (
