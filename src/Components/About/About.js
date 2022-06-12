@@ -41,7 +41,7 @@ const About = () => {
           innovative creative skills for self and company growth. I am a
           hardworking and quick learner person. I Love to learn new technology and try to improve myself and working hard.
         </p>
-        <a href="https://m.me/mahmud2640" className="btn btn-primary">
+        <a href="https://m.me/nizum.nizum.1481/" className="btn btn-primary">
           Let's Talk
         </a>
         </div>
