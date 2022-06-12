@@ -20,9 +20,6 @@ const Nav = () => {
       <Link onClick={() => setActiveNav("/experience")}
         className={activeNav ==="/experience" ? "active" : ""}to="/experience"><GiSkills/>
       </Link>
-      <Link onClick={() => setActiveNav("/service")}
-        className={activeNav ==="/service" ? "active" : ""}to="/service"><RiServiceLine />
-      </Link>
       <Link onClick={() => setActiveNav("/contact")}
         className={activeNav === "/contact" ? "active" : "" } to="/contact"><BiMessageSquareDetail />
       </Link>

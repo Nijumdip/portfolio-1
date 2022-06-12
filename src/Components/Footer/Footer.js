@@ -5,7 +5,7 @@ import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
-    <footer>
+    <footer id='footer'>
     <a href="#top" className="footer_logo">
       Shamima
     </a>
@@ -45,7 +45,7 @@ const Footer = () => {
       </a>
     </div>
     <div className="footer_copyright">
-      <small>&copy;Dev-Mahmud. All rights reserved. (2020-{year})</small>
+      <small>&copy; All rights reserved. (2021-{year})</small>
     </div>
   </footer>
   )
