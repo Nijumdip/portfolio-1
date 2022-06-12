@@ -19,8 +19,9 @@ const HireMe = () => {
             It means to qualify or build. <br /> Then Apply for a job and focused on
             career.
           </p>
-          <Link to="/contact" className="btn btn-primary"> Hire Me <BsArrowRight />
-          </Link>
+          <a href="mailto:nijumdip019911@gmail.com" className="btn btn-primary">
+          Hire Me <BsArrowRight />
+        </a>
         </div>
       </div>
 

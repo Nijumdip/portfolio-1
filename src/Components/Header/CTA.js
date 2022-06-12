@@ -5,8 +5,10 @@ import CV from '../../assets/Shamima Akter (2).pdf'
 const CTA = () => {
   return (
       <div className='cta'>
-        <Link to={CV} download className='btn'>Download CV</Link>
-        <Link to='/contact' className='btn btn-primary'>Let's Talk</Link>
+        <a href={CV} download className='btn'>Download CV</a>
+      <a href="https://m.me/nizum.nizum.1481/" target="_blank" className="btn btn-primary">
+          Let's Talk
+        </a>
       </div>
   )
 }
