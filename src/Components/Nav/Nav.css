@@ -21,9 +21,9 @@ nav a {
     color: #ffffff99;
     font-size: 1.5rem;
 }
-nav a.active {
-    background: #1f1f38;
-    color: #fff;
+nav a:active {
+    background: rgba(32, 243, 229, 0.959) !important;
+    /* color: #fff; */
 }
 nav a:hover {
     background: rgba(32, 243, 229, 0.959);

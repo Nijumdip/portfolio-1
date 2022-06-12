@@ -7,21 +7,23 @@ const HireMe = () => {
   return (
     <section className="px-2">
       <div className="d-lg-flex justify-content-around align-items-center">
+        <div>
         <img
-          style={{ width: "390px", height: "490px" }}
-          className="rounded-circle"
-          src={ME}
-          alt=""
-        />
-        <div className="px-3">
+        src={ME}
+        width= "750px"
+        className="rounded-circle"
+        alt=""
+      />
+        </div>
+        <div className="px-3 my-3">
           <p>
             Start my Journey as Influencer. <br /> Creating yourself as a as Influencer.
             It means to qualify or build. <br /> Then Apply for a job and focused on
             career.
           </p>
-          <a href="mailto:nijumdip019911@gmail.com" className="btn btn-primary">
+          <Link to="/blog" className="btn btn-primary">
           Hire Me <BsArrowRight />
-        </a>
+        </Link>
         </div>
       </div>
 
