@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const HireMe = () => {
   return (
-    <section>
+    <section className="px-2">
       <div className="d-lg-flex justify-content-around align-items-center">
         <img
           style={{ width: "390px", height: "490px" }}
@@ -13,7 +13,7 @@ const HireMe = () => {
           src={ME}
           alt=""
         />
-        <div>
+        <div className="px-3">
           <p>
             Start my Journey as Influencer. <br /> Creating yourself as a as Influencer.
             It means to qualify or build. <br /> Then Apply for a job and focused on
