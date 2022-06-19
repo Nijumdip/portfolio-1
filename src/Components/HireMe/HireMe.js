@@ -17,9 +17,7 @@ const HireMe = () => {
         </div>
         <div className="px-3 my-3">
           <p>
-            Start my Journey as Influencer. <br /> Creating yourself as a as Influencer.
-            It means to qualify or build. <br /> Then Apply for a job and focused on
-            career.
+          Start my Journey as a  developer. <br /> Creating myself as a back-end developer. It means to qualify or build. <br />Just focused on my career.
           </p>
           <a href="mailto:nijumdip019911@gmail.com" className="btn btn-primary mx-2">
           Hire Me <BsArrowRight />
