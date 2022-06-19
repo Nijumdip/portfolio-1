@@ -37,9 +37,7 @@ const About = () => {
             </article>
           </div>
           <p>
-          Hello !! My name is Shamima Akter. I am only one person who have no copy. I am a very ordinary person. I know very little about web development. I express my
-          innovative creative skills for self and company growth. I am a
-          hardworking and quick learner person. I Love to learn new technology and try to improve myself and working hard.
+          Hello !! My name is Shamima Akter.  I am a very ordinary person. I know very little about web development. I look forward to developing my innovative creative skills to grow myself and the company.I am a quick learner. I love learning new technology and trying to improve myself and working hard.
         </p>
         <a href="https://m.me/nizum.nizum.1481/" target="_blank" className="btn btn-primary">
           Let's Talk
